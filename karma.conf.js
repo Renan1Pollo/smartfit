@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/desafio-smartfit'),
+      dir: require('path').join(__dirname, './coverage/smartfit'),
       subdir: '.',
       reporters: [
         { type: 'html' },
